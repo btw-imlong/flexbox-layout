@@ -8,11 +8,28 @@ body {
 }
 h1 {
   margin: auto;
+  align-self: center;
+}
+
+.box > *:first-child {
+  align-self: stretch;
+}
+.box .selected {
+  align-self: center;
+}
+header > *:first-child {
+  align-self: stretch;
+}
+header .selected {
+  align-self: center;
 }
 header {
   width: 100%;
   height: 65px;
   background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 main {
   width: 100%;
@@ -27,9 +44,15 @@ main {
   width: 45%;
   height: 100%;
   background-color: rgb(114, 101, 26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer {
   width: 100%;
   height: 65px;
   background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
